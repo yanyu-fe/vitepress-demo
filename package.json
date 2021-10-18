@@ -1,0 +1,21 @@
+{
+  "name": "testMyPress",
+  "version": "1.0.0",
+  "description": "aibayanyu",
+  "main": "index.ts",
+  "author": "aibayanyu",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "vite": "^2.6.9",
+    "vitepress": "^0.20.0",
+    "vitepress-for-component": "^0.16.3",
+    "vue": "^3.2.20"
+  },
+  "scripts": {
+    "docs:dev": "vitepress-fc dev --root=docs --host",
+    "docs:build": " vitepress-fc build --root=docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
